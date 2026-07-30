@@ -1,0 +1,36 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+.venv
+venv_ia/
+node_modules/
+*.log
+
+
+# Cache do Python e Bytecodes
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook e Lab (Arquivos temporários e pontos de restauração)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+.local/
+
+# Configurações e Segredos Locais
+.env
+.secrets
+*.local
+
+# Sistemas Operacionais
+.DS_Store
+Thumbs.db
